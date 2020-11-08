@@ -13,6 +13,16 @@ const Product = (props) => {
   const showQuantityContainer = event => {
     event.target.nextSibling.classList.remove('d-none');
     event.target.classList.add('d-none');
+    hideOtherQuantityContainer(event.target);
+  }
+
+  const hideOtherQuantityContainer = activeProductAddCartButton => {
+    [...document.querySelectorAll('.product')].map( productElement => {
+      if(productElement.querySelector('.product-add-cart') != activeProductAddCartButton) {
+        productElement.querySelector('.product-add-cart').nextSibling.classList.add('d-none');
+        productElement.querySelector('.product-add-cart').classList.remove('d-none');
+      }
+    })
   }
 
   /*

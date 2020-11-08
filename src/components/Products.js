@@ -44,10 +44,19 @@ const Products = (props) => {
 
       return <Product product={product} key={product.id} setCart={setCart} cart={cart}/>;
     });
+
+  const emptyList = <div className="text-center w-100 mb-5">
+    <h2>Burada hiç ürün yok :(</h2>
+    <span className="text-muted">Arama kriterlerini değiştirerek alışverişe devam edebilirsin.</span>
+  </div>
+    
   // onSetCategories(categories);
   useEffect(() => onSetCategories(categories), []);
 
-  return <React.Fragment>{productList}</React.Fragment>;
+  return <React.Fragment>
+    {
+      productList.length ? productList : emptyList
+    }</React.Fragment>;
 };
 
 export default Products;
