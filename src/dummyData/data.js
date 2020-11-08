@@ -94,6 +94,102 @@ const myProducts = [
         ],
         description: "sssss",
         imageURL: "flower"
+    },
+    {
+        id: 10,
+        name: "Z6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth",
+        price: 499.90,
+        categories: [
+            "Elektronik"
+        ],
+        description: "sssss",
+        imageURL: "smartwatch"
+    },
+    {
+        id: 11,
+        name: "Calvin Klein Euphoria EDP 100 ml Kadın Parfüm",
+        price: 165.61,
+        categories: [
+            "Parfüm", "Moda, Aksesuar",
+        ],
+        description: "sssss",
+        imageURL: "perfume"
+    },
+    {
+        id: 12,
+        name: "Gold Çizgili Vazoda 2 Dal Orkide Çiçeği",
+        price: 29.90,
+        categories: [
+            "Ofis, Kırtasiye"
+        ],
+        description: "sssss",
+        imageURL: "tree"
+    },    {
+        id: 13,
+        name: "925 Ayar Gümüş Çeyreklik Bileklik (Y)",
+        price: 29.90,
+        categories: [
+            "Kişisel Bakım"
+        ],
+        description: "sssss",
+        imageURL: "watch"
+    },
+    {
+        id: 14,
+        name: "Sailor SD-3160 Siyah Dağcı Seyahat Sırt Çantası 55 LT Outdoor-Trekking",
+        price: 44.90,
+        categories: [
+            "Ofis, Kırtasiye"
+        ],
+        description: "sssss",
+        imageURL: "bag"
+    },    {
+        id: 15,
+        name: "Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Cev...",
+        price: 17.90,
+        categories: [
+            "Parfüm", "Kişisel Bakım"
+        ],
+        description: "sssss",
+        imageURL: "chess"
+    },
+    {
+        id: 16,
+        name: "130 Cm Papyonlu Büyük Ayıcı (%100 Yerli)",
+        price: 9.90,
+        categories: [
+            "Ofis, Kırtasiye"
+        ],
+        description: "sssss",
+        imageURL: "bear"
+    },    {
+        id: 17,
+        name: "925 Ayar Gümüş Dualı İsimli Nazar İgnesi",
+        price: 2.90,
+        categories: [
+            "Parfüm", "Kişisel Bakım"
+        ],
+        description: "sssss",
+        imageURL: "needle"
+    },
+    {
+        id: 18,
+        name: "Özel Tatlar Çikolata Kutusu 300 gr",
+        price: 5.90,
+        categories: [
+            "Ofis, Kırtasiye"
+        ],
+        description: "sssss",
+        imageURL: "chocolate"
+    },    {
+        id: 19,
+        name: "Kucak Dolusu Aşk 25 Kırmızı Gül Buketi",
+        price: 99.90,
+        categories: [
+            "Parfüm", "Kişisel Bakım"
+        ],
+        description: "sssss",
+        imageURL: "flower"
     }
 ];
 
